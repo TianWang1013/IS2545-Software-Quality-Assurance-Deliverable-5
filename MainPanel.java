@@ -1,3 +1,4 @@
+package test;
 
 import java.awt.*;
 import javax.swing.*;
@@ -7,10 +8,10 @@ import java.util.*;
 public class MainPanel extends JPanel {
 
     // Current configuration
-    private Cell[][] _cells;
+    public Cell[][] _cells;
 
     // Backup configuration
-    private Cell[][] _backupCells;
+    public Cell[][] _backupCells;
 
     private int _size = 0;
 
@@ -171,6 +172,8 @@ public class MainPanel extends JPanel {
 	    }
 	}
     }
+    
+
 
     /**
      * This is for debug use.  It will display
